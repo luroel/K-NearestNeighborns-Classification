@@ -23,3 +23,17 @@ for i=1:m_1
 end
 d
 class_quality
+
+for t=1:m_1-1
+    for j=t:m_1
+        if(d(t)>d(j))
+        aux = d(j);
+        d(j) = d(t);
+        d(t) = aux;
+        
+        aux2 = class(j);
+        class(j)= class(t);
+        class(t)=aux2;
+        end
+    end
+end
