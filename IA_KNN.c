@@ -37,3 +37,20 @@ for t=1:m_1-1
         end
     end
 end
+
+%d
+%class
+ 
+ A = X(:,1);
+ B = X(:,2);
+ C = X(:,3);
+ 
+ K = 1
+ class(1)
+ K = 2
+ class(1:K)
+ K = 3
+ class(1:K)
+ K = 4
+ class(1:K)
+ 
